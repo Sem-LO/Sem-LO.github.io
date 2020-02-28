@@ -1,0 +1,128 @@
+h1, h2 
+{
+ text-align: center;
+ color: rgb(0,100,0);
+}
+#Athenes
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#Crete
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#GorgesDeVikos
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#part1
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#part2
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#part3
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#part4
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#tanger
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#tetouan
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#IleCocoa
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#IleNika
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#fort-de-france
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#trois-Ilets
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#cabo1
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#cabo2
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+#cabo3
+{
+ width: 700px;
+ display: flex;
+ margin-left:auto;
+ margin-right: auto;
+}
+.text, .image
+{
+ width:320px; 
+}
+img
+{
+ padding-left: 20px;
+ padding-top: 20px;
+ width: 320px;
+ height: 338px;
+}

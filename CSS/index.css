@@ -1,0 +1,188 @@
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+h1 
+{
+ text-align: center;
+ padding-top: 30px;
+ color: white;
+}
+#background
+{
+ background-image:url(../Images/Photos/background.jpg);
+ background-size:cover;
+ background-position: center;
+ font-family: sans-serif;
+ height: 511.75px;
+ width: auto;
+}
+/* bloc menu, mise des elements du navBar en inline block*/
+#menu
+{
+ background: black;
+ text-align: center;
+}
+#menu ul, #menu .active
+{
+ display: inline-flex;
+ list-style-type: none;
+ color: #fff; 
+}
+#menu ul li
+{
+ width:120px;
+ margin: 15px;
+ padding: 15px;
+}
+#menu ul li a
+{
+ text-decoration: none;
+ color: white;
+}
+.active, #menu ul li:hover
+{
+ background: #2bab0d;
+ border-radius: 3px;
+}
+.sousMenu1,.sousMenu2,.sousMenu3,.sousMenu4, .sousMenu5
+{
+ display: none;
+}
+#menu ul li:hover .sousMenu1
+{
+ display: block;
+ position: absolute;
+ background: black;
+ margin-top: 15px;
+ margin-left: -15px;
+}
+#menu ul li:hover .sousMenu2
+{
+ display: block;
+ position: absolute;
+ background:  black;
+ margin-top: 15px;
+ margin-left: -15px;
+}
+#menu ul li:hover .sousMenu3
+{
+ display: block;
+ position: absolute;
+ background: black;
+ margin-top: 15px;
+ margin-left: -15px;
+}
+#menu ul li:hover .sousMenu4
+{
+ display: block;
+ position: absolute;
+ background:black;
+ margin-top: 15px;
+ margin-left: -15px;
+}
+#menu ul li:hover .sousMenu5
+{
+ display: block;
+ position: absolute;
+ background: black;
+ margin-top: 15px;
+ margin-left: -15px;
+}
+#menu ul li:hover .sousMenu1 ul
+{
+ display: block;
+ margin: 10px;
+}
+#menu ul li:hover .sousMenu2 ul
+{
+ display: block;
+ margin: 10px;
+}
+#menu ul li:hover .sousMenu3 ul
+{
+ display: block;
+ margin: 10px;
+}
+#menu ul li:hover .sousMenu4 ul
+{
+ display: block;
+ margin: 10px;
+}
+#menu ul li:hover .sousMenu5 ul
+{
+ display: block;
+ margin: 10px;
+}
+#menu ul li:hover .sousMenu1 ul li
+{
+ width: 150px;
+ padding: 10px;
+ border-bottom: 1px dotted #fff;
+ border-radius: 0;
+ text-align: left;
+}
+#menu ul li:hover .sousMenu2 ul li
+{
+ width: 150px;
+ padding: 10px;
+ border-bottom: 1px dotted #fff;
+ border-radius: 0;
+ text-align: left;
+}
+#menu ul li:hover .sousMenu3 ul li
+{
+ width: 150px;
+ padding: 10px;
+ border-bottom: 1px dotted #fff;
+ border-radius: 0;
+ text-align: left;
+}
+#menu ul li:hover .sousMenu4 ul li
+{
+ width: 150px;
+ padding: 10px;
+ border-bottom: 1px dotted #fff;
+ border-radius: 0;
+ text-align: left;
+}
+
+#menu ul li:hover .sousMenu5 ul li
+{
+ width: 150px;
+ padding: 10px;
+ border-bottom: 1px dotted #fff;
+ border-radius: 0;
+ text-align: left;
+}
+#menu ul li:hover .sousMenu1 ul li:last-child
+{
+ border-bottom: none;
+}
+#menu ul li:hover .sousMenu2 ul li:last-child
+{
+ border-bottom: none;
+}
+#menu ul li:hover .sousMenu3 ul li:last-child
+{
+ border-bottom: none;
+}
+#menu ul li:hover .sousMenu4 ul li:last-child
+{
+ border-bottom: none;
+}
+#menu ul li:hover .sousMenu5 ul li:last-child
+{
+ border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
